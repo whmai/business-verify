@@ -29,7 +29,7 @@ AI 先生成“指导测试验证集”
 复制整个目录到支持 Agent Skills 的位置，例如 Codex 项目中的：
 
 ```text
-.codex/skills/screenshot-guided-business-verification/
+.codex/skills/business-verify/
 ```
 
 必须保留 `SKILL.md` 和 `references/` 的相对目录结构。
@@ -37,7 +37,7 @@ AI 先生成“指导测试验证集”
 ## 示例提示
 
 ```text
-Use $screenshot-guided-business-verification.
+Use $business-verify.
 根据下面的需求和文字说明，为“部分退款”生成一份拟人化界面验证案例。
 环境为 staging，可创建隔离测试订单；订单号和时间戳是动态字段。
 先只输出测试契约，不执行操作，等待我确认金额、状态机和接口断言。

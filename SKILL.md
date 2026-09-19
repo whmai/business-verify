@@ -1,5 +1,5 @@
 ---
-name: screenshot-guided-business-verification
+name: business-verify
 description: "自测通过、自测、功能验收、业务验证：将需求、文字步骤或截图转为可执行的 UI、接口和数据验证集；不用于仅做静态代码审查。"
 ---
 

@@ -1,7 +1,7 @@
 interface:
-  display_name: "Screenshot-Guided Business Verification"
+  display_name: "Business Verify"
   short_description: "Turn requirements into executable business UI tests"
-  default_prompt: "Use $screenshot-guided-business-verification to create a requirement-driven business verification suite before implementing this feature."
+  default_prompt: "Use $business-verify to create a requirement-driven business verification suite before implementing this feature."
 
 policy:
   allow_implicit_invocation: true
